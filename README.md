@@ -167,7 +167,7 @@ Now postcss setup is finished
 
 ## Tailwind last configs to be done
 
-Create a ```globals.css``` file in ```./src``` **PATH**
+Create a ```globals.css``` file in ```./src/styles``` **PATH**
 
 Inside ```globals.css```file import tailwind structure attributes
 
@@ -186,3 +186,29 @@ After that your tailwindcss will work pretty well
 
 **Follow this tutorial**
 [Installation shadcn](https://ui.shadcn.com/docs/installation/manual)
+
+Also following this tutorial from the scratch shadcn cant work
+
+you will need to create a ```components.json``` by your self
+
+Default code down below
+
+```components.json```
+```json
+{
+    "$schema": "https://ui.shadcn.com/schema.json",
+    "style": "new-york",
+    "rsc": false,
+    "tsx": true,
+    "tailwind": {
+        "config": "tailwind.config.js",
+        "css": "@/styles/global.css",
+        "baseColor": "zinc",
+        "cssVariables": true,
+        "prefix": ""
+    },
+    "aliases": {
+        "components": "@/components",
+        "utils": "@/lib/utils"
+    }
+}
