@@ -3,7 +3,7 @@
 
 Initializing project
 ```
-pnpm init electron-app@latest my-new-app -- --template=vite-typescript
+npm init electron-app@latest my-new-app -- --template=vite-typescript
 ```
 
 ### **Before installing packages uninstall eslint on your entire project**
