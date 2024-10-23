@@ -87,9 +87,25 @@ root.render(
 );
 ```
 
-**In this example im using ```app``` as root ID
+## You need to do these 2 steps below, they're very important to electron recognize react
 
-Whenever name you put you will need to implement this id in a div inside ```index.html``` body tag
+
+**import ```app.tsx``` on ```renderer.ts``` file**
+
+**And also put jsx on ```tsconfig.json``` like this example below:**
+
+```tsconfig.json```
+```json
+{
+    "compilerOptions": {
+        "jsx": "react-jsx"
+    }
+}
+```
+
+## Ok back to the tutorial
+
+Whatever name you put you will need to implement this id in a div on ```index.html``` body tag
 
 ```index.html```
 ```html
