@@ -25,7 +25,7 @@ Also you will need to install scheduler for react-dom work
 pnpm add -D scheduler
 ```
 
-If not installed install ```electron-forge/shared-types```
+If not installed install ```@electron-forge/shared-types```
 ```
 pnpm add -D electron-forge/shared-types
 ```
